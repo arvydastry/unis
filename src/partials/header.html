@@ -1,0 +1,67 @@
+<!-- ============ VIRŠUTINĖ JUOSTA ============ -->
+<div class="topbar">
+  <div class="container topbar__row">
+    <ul class="topbar__list">
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Televizori%C5%B3+g.+3%2C+%C5%A0iauliai" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-map-pin"/></svg>Televizorių g. 3, Šiauliai</a></li>
+      <li><a href="tel:+37070077895"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>+370 700 77895</a></li>
+      <li class="topbar__mail"><a href="mailto:office@unis-steel.lt"><svg class="ico" aria-hidden="true"><use href="#i-envelope-simple"/></svg>office@unis-steel.lt</a></li>
+    </ul>
+    <div class="lang" role="group" aria-label="Kalba">
+      <a href="#" aria-current="true" lang="lt" hreflang="lt">LT</a>
+      <a href="#" lang="en" hreflang="en" title="English (demonstracinėje versijoje neveikia)">EN</a>
+    </div>
+  </div>
+</div>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<!-- ============ ANTRAŠTĖ ============ -->
+<header class="site-header" id="virsus">
+  <div class="container site-header__row">
+    <a class="brand" href="index.html" aria-label="UNIS Steel Baltija, į pradžią">
+      <img class="brand__dark" src="assets/img/brand/logo-unis.png" width="131" height="72" alt="UNIS Steel Baltija">
+      <img class="brand__light" src="assets/img/brand/logo-unis-balta.png" width="131" height="72" alt="" aria-hidden="true">
+    </a>
+    <nav class="nav" aria-label="Pagrindinis meniu">
+      <button class="nav__link nav__link--btn" type="button" aria-expanded="false" aria-controls="mega" data-mega-toggle>Produktai<svg class="ico" aria-hidden="true"><use href="#i-caret-down"/></svg></button>
+      <a class="nav__link" href="skaiciuokle.html"{{nav_skaiciuokle}}>Skaičiuoklė</a>
+      <a class="nav__link" href="index.html#apie">Apie mus</a>
+      <a class="nav__link" href="index.html#kokybe">Kokybė</a>
+      <a class="nav__link" href="index.html#kontaktai">Kontaktai</a>
+    </nav>
+    <div class="site-header__actions">
+      <a class="btn btn--accent btn--sm header-cta" href="uzklausa.html"{{nav_uzklausa}}>Pateikti užklausą <span class="rfq-count" data-rfq-count hidden></span></a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-nav" data-burger><span></span><span></span><span class="sr">Meniu</span></button>
+    </div>
+  </div>
+
+  <!-- Produktų meniu (sugeneruojamas iš src/data/catalog.json) -->
+  <div class="mega" id="mega" hidden>
+    <div class="container mega__grid">
+{{mega}}
+    </div>
+    <div class="mega__foot">
+      <div class="container mega__foot-row">
+        <p>Nerandate reikiamo gaminio ar matmens? Parašykite, pasiūlysime tiekimą pagal užsakymą.</p>
+        <a class="link-arrow" href="uzklausa.html">Pateikti užklausą<svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobilusis meniu -->
+<div class="mobile-nav" id="mobile-nav" hidden>
+  <nav class="mobile-nav__inner" aria-label="Mobilusis meniu">
+    <details class="mobile-nav__group">
+      <summary>Produktai<svg class="ico" aria-hidden="true"><use href="#i-caret-down"/></svg></summary>
+      <div class="mobile-nav__sub">
+{{mobile_products}}
+      </div>
+    </details>
+    <a href="skaiciuokle.html">Skaičiuoklė</a>
+    <a href="index.html#apie">Apie mus</a>
+    <a href="index.html#kokybe">Kokybė</a>
+    <a href="index.html#kontaktai">Kontaktai</a>
+    <a class="btn btn--accent btn--lg mobile-nav__cta" href="uzklausa.html">Pateikti užklausą</a>
+    <p class="mobile-nav__contact"><a href="tel:+37070077895">+370 700 77895</a><a href="mailto:office@unis-steel.lt">office@unis-steel.lt</a></p>
+  </nav>
+</div>

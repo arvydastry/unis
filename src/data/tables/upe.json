@@ -1,0 +1,144 @@
+{
+  "slug": "upe",
+  "top_image": "uploads__images__pages__virsus_upe.png",
+  "mid_image": "uploads__images__pages__vidus_upe.png",
+  "caption": "Matmenys",
+  "columns": [
+    "Žymėjimas",
+    "Teorinis metro svoris (kg/m)",
+    "h",
+    "b",
+    "s",
+    "t",
+    "r"
+  ],
+  "rows": [
+    [
+      "UPE 80",
+      "7.90",
+      "80",
+      "50",
+      "4.0",
+      "7.0",
+      "10.0"
+    ],
+    [
+      "UPE 100",
+      "9.82",
+      "100",
+      "55",
+      "4.5",
+      "7.5",
+      "10.0"
+    ],
+    [
+      "UPE 120",
+      "12.1",
+      "120",
+      "60",
+      "5.0",
+      "8.0",
+      "12.0"
+    ],
+    [
+      "UPE 140",
+      "14.5",
+      "140",
+      "65",
+      "5.0",
+      "9.0",
+      "12.0"
+    ],
+    [
+      "UPE 160",
+      "17.0",
+      "160",
+      "70",
+      "5.5",
+      "9.5",
+      "12.0"
+    ],
+    [
+      "UPE 180",
+      "19.7",
+      "180",
+      "75",
+      "5.5",
+      "10.5",
+      "12.0"
+    ],
+    [
+      "UPE 200",
+      "22.8",
+      "200",
+      "80",
+      "6.0",
+      "11.0",
+      "13.0"
+    ],
+    [
+      "UPE 220",
+      "26.6",
+      "220",
+      "85",
+      "6.5",
+      "12.0",
+      "13.0"
+    ],
+    [
+      "UPE 240",
+      "30.2",
+      "240",
+      "90",
+      "7.0",
+      "12.5",
+      "15.0"
+    ],
+    [
+      "UPE 270",
+      "35.2",
+      "270",
+      "95",
+      "7.5",
+      "13.5",
+      "15.0"
+    ],
+    [
+      "UPE 300",
+      "44.4",
+      "300",
+      "100",
+      "9.5",
+      "15.0",
+      "15.0"
+    ],
+    [
+      "UPE 330",
+      "53.2",
+      "330",
+      "105",
+      "11.0",
+      "16.0",
+      "18.0"
+    ],
+    [
+      "UPE 360",
+      "61.2",
+      "360",
+      "110",
+      "12.0",
+      "17.0",
+      "18.0"
+    ],
+    [
+      "UPE 400",
+      "72.2",
+      "400",
+      "115",
+      "13.5",
+      "18.0",
+      "18.0"
+    ]
+  ],
+  "notes": "Not a wall-thickness matrix: one row per profile, every cell filled. The header strip has two text lines and no table-wide caption: line 1 = \"Žymėjimas\", \"Teorinis metro svoris (kg/m)\" and the group header \"Matmenys\"; line 2 = the sub-labels \"h\", \"b\", \"s\", \"t\", \"r\", which all belong to the group \"Matmenys\" (no unit is printed for them; mm by context). \"Matmenys\" is put in \"caption\" only because it is the text printed above the labels h/b/s/t/r - it is a group header for the dimension columns and does not span the first two columns. Column assignment checked by x-position (header label x / body value x, px): 2/3, 191/192, h 436/436, b 557/557, s 678/678, t 798/799, r 920/920. Body has no grid lines and no zebra striping; the row background colour is a stock code explained by the legend printed under the table: darker blue = \"Laikoma sandėlyje\" (rows UPE 80 - UPE 270, 10 rows), light grey-blue = \"Tiekiama pagal užsakymą\" (rows UPE 300 - UPE 400, 4 rows). Decimal separator printed as a dot; trailing zeros kept as printed (7.90, 4.0, 10.0). Text is a non-antialiased bitmap font; every glyph was matched exactly against digit templates (pixel-exact round trip JSON -> glyphs -> image, 0 mismatches in 98 cells), then all rows were re-read visually at 2x and 6x."
+}

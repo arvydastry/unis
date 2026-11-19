@@ -1,0 +1,5 @@
+# vietiniai įrankių nustatymai ir laikini failai
+.claude/
+.DS_Store
+__pycache__/
+*.pyc

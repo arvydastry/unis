@@ -1,0 +1,80 @@
+{
+  "_apie": "Rankiniai pataisymai ir sandėlio požymiai perrašytoms unis-steel.lt lentelėms. Automatinius pataisymus (lentelė skiriasi nuo formulės daugiau nei 1,5 %) build.py suranda pats ir surašo į table-issues.json. 'cells' reikšmė \"\" pašalina langelį, reikšmė prie tuščio langelio jį užpildo.",
+  "stock_rows": {
+    "_apie": "Sijų ir lovių lentelėse eilutės spalva reiškia „Laikoma sandėlyje“ (pirmos N eilučių) arba „Tiekiama pagal užsakymą“ (likusios).",
+    "heb": 11,
+    "hea": 13,
+    "ipe": 13,
+    "ipn": 12,
+    "upe": 10,
+    "upn": 14
+  },
+  "tables": {
+    "konstrukciniai-apvalus": {
+      "labels": {
+        "1068.0": "1168"
+      },
+      "why": {
+        "1068.0": "visi šios eilutės svoriai atitinka 1168 mm skersmenį, tad žymė greičiausiai klaidinga"
+      }
+    },
+    "preciziniai-apvalus": {
+      "labels": {
+        "19.5": "19.05"
+      },
+      "why": {
+        "19.5": "visi šios eilutės svoriai atitinka 19,05 mm (3/4 colio) vamzdį"
+      }
+    },
+    "kvadratiniai-en10219": {
+      "keep": [
+        "18x18|1.5"
+      ],
+      "_pastaba": "18x18x1,5 lentelėje 0,77 kg/m: 18x18 nėra EN 10219-2 matmuo, reikšmė sutampa su tiksliųjų vamzdžių lentele (0,773), paliekama kaip yra"
+    },
+    "kampuociai-nelygiasoniai": {
+      "cells": {
+        "45x30|4": "2.25",
+        "75x50|10": "9.07"
+      },
+      "why": {
+        "45x30|4": "pagal EN 10056 kampuočio 45x30x4 svoris 2,25 kg/m; lentelėje 2,55 (didesnis nei 50x30x4)",
+        "75x50|10": "pagal EN 10056 geometriją 9,07 kg/m; lentelėje 9,27"
+      }
+    },
+    "staciakampiai-en10210": {
+      "cells": {
+        "160x80|14.2": "",
+        "180x100|4.0": "16.9"
+      },
+      "why": {
+        "160x80|14.2": "16,90 yra 180x100x4,0 svoris, svetainėje įrašytas viena eilute aukščiau; 160x80x14,2 EN 10210-2 nenumato",
+        "180x100|4.0": "EN 10210-2: 180x100x4,0 = 16,9 kg/m; svetainėje ši reikšmė atsidūrusi eilutėje 160x80, stulpelyje 14,2"
+      }
+    },
+    "preciziniai-staciakampiai": {
+      "cells": {
+        "30x10|2.0": "1.124"
+      },
+      "why": {
+        "30x10|2.0": "toks pat perimetras kaip 25x15x2,0 (1,124); lentelėje 1,142 (sukeisti skaitmenys)"
+      }
+    },
+    "hea": {
+      "cells": {
+        "HEA 600": "178"
+      },
+      "why": {
+        "HEA 600": "standartinė HE 600 A masė 178 kg/m (A = 226,5 cm²); lentelėje 179"
+      }
+    },
+    "upn": {
+      "cells": {
+        "UPN 65": "7.09"
+      },
+      "why": {
+        "UPN 65": "standartinė UPN 65 masė 7,09 kg/m; lentelėje 7,04"
+      }
+    }
+  }
+}

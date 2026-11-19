@@ -1,0 +1,108 @@
+{
+ "slug": "apvalus-cinkuoti",
+ "top_image": "uploads__images__pages__virsus_apvalus_cinkuoti.jpg",
+ "mid_image": "uploads__images__pages__vidus_apvalus_cinkuoti.jpg",
+ "caption": "Sienelės storis, mm. / Teorinis metro svoris (kg/m).",
+ "columns": [
+  "Diametras, mm.",
+  "2.0",
+  "2.5",
+  "3.0",
+  "4.0",
+  "5.0",
+  "6.0"
+ ],
+ "rows": [
+  [
+   "33.7",
+   "1.69",
+   "2.06",
+   "2.43",
+   "",
+   "",
+   ""
+  ],
+  [
+   "42.4",
+   "2.13",
+   "2.63",
+   "3.12",
+   "4.06",
+   "",
+   ""
+  ],
+  [
+   "48.3",
+   "2.44",
+   "3.02",
+   "3.59",
+   "4.68",
+   "5.72",
+   ""
+  ],
+  [
+   "60.3",
+   "3.08",
+   "3.81",
+   "4.54",
+   "5.94",
+   "7.30",
+   ""
+  ],
+  [
+   "76.1",
+   "3.91",
+   "4.86",
+   "5.79",
+   "7.61",
+   "9.39",
+   "11.13"
+  ],
+  [
+   "88.9",
+   "4.60",
+   "5.71",
+   "6.81",
+   "8.97",
+   "11.02",
+   "12.30"
+  ],
+  [
+   "101.6",
+   "5.25",
+   "6.54",
+   "7.80",
+   "10.30",
+   "12.73",
+   "15.09"
+  ],
+  [
+   "114.3",
+   "",
+   "7.37",
+   "8.81",
+   "11.66",
+   "14.45",
+   "17.12"
+  ],
+  [
+   "139.7",
+   "",
+   "",
+   "10.81",
+   "14.34",
+   "17.76",
+   "21.19"
+  ],
+  [
+   "168.3",
+   "",
+   "",
+   "13.06",
+   "17.33",
+   "21.51",
+   "25.68"
+  ]
+ ],
+ "notes": "Units: first column = outside diameter in mm; the other column labels are wall thicknesses in mm; cell values are weight in kg/m of the galvanized tube. No footnotes, no merged cells in the body. The table has only 10 rows (33.7 ... 168.3) and empty cells are as printed. The values are not plain steel weights: they run at about 1.07 x the theoretical black-steel weight (D-t)*t*0.0246615 (zinc allowance), so a 7850 kg/m3 formula check will show a systematic +7 %. Printed-as-is peculiarities (read with full confidence, not corrected): (1) row 88.9 / col 6.0 is printed '12.30', which is the black (ungalvanized) weight of 88.9x6.0 - ratio 1.00 instead of about 1.07 (about 13.1-13.2 would fit the pattern); likely a source error; (2) row 33.7 / col 2.0 is printed '1.69' (ratio 1.08; 1.67 would fit the 1.07 pattern); (3) row 88.9 / col 5.0 is printed '11.02' (ratio 1.065, i.e. 10.30 x 1.07)."
+}

@@ -1,0 +1,184 @@
+[
+ {
+  "lentele": "vandens-duju",
+  "vieta": "42.4 × 4.0",
+  "svetaineje": "3.97",
+  "naudojama": "3.79",
+  "pastaba": "pagal formulę 3.79 kg/m (skirtumas +5 %)"
+ },
+ {
+  "lentele": "vamzdziai-cinkuoti",
+  "vieta": "42.4 × 4.0",
+  "svetaineje": "4.25",
+  "naudojama": "4.05",
+  "pastaba": "pagal formulę 4.05 kg/m (skirtumas +5 %)"
+ },
+ {
+  "lentele": "preciziniai-apvalus",
+  "vieta": "15 × 1.4",
+  "svetaineje": "0.408",
+  "naudojama": "0.47",
+  "pastaba": "pagal formulę 0.47 kg/m (skirtumas -13 %)"
+ },
+ {
+  "lentele": "preciziniai-apvalus",
+  "vieta": "15 × 1.5",
+  "svetaineje": "0.469",
+  "naudojama": "0.499",
+  "pastaba": "pagal formulę 0.50 kg/m (skirtumas -6 %)"
+ },
+ {
+  "lentele": "preciziniai-apvalus",
+  "vieta": "15 × 1.8",
+  "svetaineje": "0.499",
+  "naudojama": "0.586",
+  "pastaba": "pagal formulę 0.59 kg/m (skirtumas -15 %)"
+ },
+ {
+  "lentele": "preciziniai-apvalus",
+  "vieta": "15 × 2.0",
+  "svetaineje": "0.586",
+  "naudojama": "0.641",
+  "pastaba": "pagal formulę 0.64 kg/m (skirtumas -9 %)"
+ },
+ {
+  "lentele": "preciziniai-apvalus",
+  "vieta": "15 × 2.5",
+  "svetaineje": "0.641",
+  "naudojama": "0.771",
+  "pastaba": "pagal formulę 0.77 kg/m (skirtumas -17 %)"
+ },
+ {
+  "lentele": "preciziniai-apvalus",
+  "vieta": "eilutės žymė „19.5“",
+  "svetaineje": "19.5",
+  "naudojama": "19.05",
+  "pastaba": "visi šios eilutės svoriai atitinka 19,05 mm (3/4 colio) vamzdį"
+ },
+ {
+  "lentele": "preciziniai-staciakampiai",
+  "vieta": "30x10 × 2.0",
+  "svetaineje": "1.142",
+  "naudojama": "1.124",
+  "pastaba": "toks pat perimetras kaip 25x15x2,0 (1,124); lentelėje 1,142 (sukeisti skaitmenys)"
+ },
+ {
+  "lentele": "konstrukciniai-apvalus",
+  "vieta": "eilutės žymė „1068.0“",
+  "svetaineje": "1068.0",
+  "naudojama": "1168",
+  "pastaba": "visi šios eilutės svoriai atitinka 1168 mm skersmenį, tad žymė greičiausiai klaidinga"
+ },
+ {
+  "lentele": "konstrukciniai-apvalus",
+  "vieta": "1219.0 × 16.0",
+  "svetaineje": "457.00",
+  "naudojama": "475",
+  "pastaba": "pagal formulę 474.68 kg/m (skirtumas -4 %)"
+ },
+ {
+  "lentele": "apvalus-cinkuoti",
+  "vieta": "88.9 × 6.0",
+  "svetaineje": "12.30",
+  "naudojama": "13.1",
+  "pastaba": "pagal formulę 13.13 kg/m (skirtumas -6 %)"
+ },
+ {
+  "lentele": "kvadratiniai-en10219",
+  "vieta": "25x25 × 2.5",
+  "svetaineje": "1.34",
+  "naudojama": "1.64",
+  "pastaba": "pagal formulę 1.64 kg/m (skirtumas -18 %)"
+ },
+ {
+  "lentele": "kvadratiniai-en10210",
+  "vieta": "140x140 × 10.0",
+  "svetaineje": "50.90",
+  "naudojama": "40",
+  "pastaba": "pagal formulę 39.98 kg/m (skirtumas +27 %)"
+ },
+ {
+  "lentele": "staciakampiai-en10219",
+  "vieta": "50x35 × 3.0",
+  "svetaineje": "3.45",
+  "naudojama": "3.54",
+  "pastaba": "pagal formulę 3.54 kg/m (skirtumas -3 %)"
+ },
+ {
+  "lentele": "staciakampiai-en10219",
+  "vieta": "180x120 × 6.3",
+  "svetaineje": "25.40",
+  "naudojama": "27.4",
+  "pastaba": "pagal formulę 27.36 kg/m (skirtumas -7 %)"
+ },
+ {
+  "lentele": "staciakampiai-en10219",
+  "vieta": "200x100 × 6.3",
+  "svetaineje": "25.40",
+  "naudojama": "27.4",
+  "pastaba": "pagal formulę 27.36 kg/m (skirtumas -7 %)"
+ },
+ {
+  "lentele": "staciakampiai-en10210",
+  "vieta": "160x80 × 14.2",
+  "svetaineje": "16.90",
+  "naudojama": "(pašalinta)",
+  "pastaba": "16,90 yra 180x100x4,0 svoris, svetainėje įrašytas viena eilute aukščiau; 160x80x14,2 EN 10210-2 nenumato"
+ },
+ {
+  "lentele": "staciakampiai-en10210",
+  "vieta": "180x100 × 4.0",
+  "svetaineje": "(tuščia)",
+  "naudojama": "16.9",
+  "pastaba": "EN 10210-2: 180x100x4,0 = 16,9 kg/m; svetainėje ši reikšmė atsidūrusi eilutėje 160x80, stulpelyje 14,2"
+ },
+ {
+  "lentele": "hea",
+  "vieta": "HEA 600",
+  "svetaineje": "179.0",
+  "naudojama": "178",
+  "pastaba": "standartinė HE 600 A masė 178 kg/m (A = 226,5 cm²); lentelėje 179"
+ },
+ {
+  "lentele": "upn",
+  "vieta": "UPN 65",
+  "svetaineje": "7.04",
+  "naudojama": "7.09",
+  "pastaba": "standartinė UPN 65 masė 7,09 kg/m; lentelėje 7,04"
+ },
+ {
+  "lentele": "kampuociai-nelygiasoniai",
+  "vieta": "45x30 × 4",
+  "svetaineje": "2.55",
+  "naudojama": "2.25",
+  "pastaba": "pagal EN 10056 kampuočio 45x30x4 svoris 2,25 kg/m; lentelėje 2,55 (didesnis nei 50x30x4)"
+ },
+ {
+  "lentele": "kampuociai-nelygiasoniai",
+  "vieta": "75x50 × 10",
+  "svetaineje": "9.27",
+  "naudojama": "9.07",
+  "pastaba": "pagal EN 10056 geometriją 9,07 kg/m; lentelėje 9,27"
+ },
+ {
+  "lentele": "juostos",
+  "vieta": "55 × 4",
+  "svetaineje": "1.76",
+  "naudojama": "1.73",
+  "pastaba": "pagal formulę 1.73 kg/m (skirtumas +2 %)"
+ },
+ {
+  "lentele": "strypai-kalibruoti",
+  "vieta": "3 mm",
+  "svetaineje": "0.06",
+  "naudojama": "0.0555",
+  "pastaba": "lentelėje suapvalinta; pagal formulę 0.0555 kg/m"
+ },
+ {
+  "lentele": "strypai-kalibruoti",
+  "vieta": "5 mm",
+  "svetaineje": "0.15",
+  "naudojama": "0.154",
+  "pastaba": "lentelėje suapvalinta; pagal formulę 0.1541 kg/m"
+ }
+]

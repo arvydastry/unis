@@ -1,0 +1,199 @@
+{
+  "slug": "upn",
+  "top_image": "uploads__images__pages__upn_virsus.jpg",
+  "mid_image": "uploads__images__pages__upn_vidus.jpg",
+  "caption": "Matmenys",
+  "columns": [
+    "Žymėjimas",
+    "Teorinis metro svoris (kg/m)",
+    "h",
+    "b",
+    "s",
+    "t",
+    "r",
+    "r₂"
+  ],
+  "rows": [
+    [
+      "UPN 50",
+      "5.59",
+      "50",
+      "38",
+      "5",
+      "7",
+      "7",
+      "3.5"
+    ],
+    [
+      "UPN 65",
+      "7.04",
+      "65",
+      "42",
+      "5.5",
+      "7.5",
+      "7.5",
+      "4"
+    ],
+    [
+      "UPN 80",
+      "8.64",
+      "80",
+      "45",
+      "6",
+      "8",
+      "8",
+      "4"
+    ],
+    [
+      "UPN 100",
+      "10.6",
+      "100",
+      "50",
+      "6",
+      "8.5",
+      "8.5",
+      "4.5"
+    ],
+    [
+      "UPN 120",
+      "13.4",
+      "120",
+      "55",
+      "7",
+      "9",
+      "9",
+      "4.5"
+    ],
+    [
+      "UPN 140",
+      "16.0",
+      "140",
+      "60",
+      "7",
+      "10",
+      "10",
+      "5"
+    ],
+    [
+      "UPN 160",
+      "18.8",
+      "160",
+      "65",
+      "7.5",
+      "10.5",
+      "10.5",
+      "5.5"
+    ],
+    [
+      "UPN 180",
+      "22.0",
+      "180",
+      "70",
+      "8",
+      "11",
+      "11",
+      "5.5"
+    ],
+    [
+      "UPN 200",
+      "25.3",
+      "200",
+      "75",
+      "8.5",
+      "11.5",
+      "11.5",
+      "6"
+    ],
+    [
+      "UPN 220",
+      "29.4",
+      "220",
+      "80",
+      "9",
+      "12.5",
+      "12.5",
+      "6.5"
+    ],
+    [
+      "UPN 240",
+      "33.2",
+      "240",
+      "85",
+      "9.5",
+      "13",
+      "13",
+      "6.5"
+    ],
+    [
+      "UPN 260",
+      "37.9",
+      "260",
+      "90",
+      "10",
+      "14",
+      "14",
+      "7"
+    ],
+    [
+      "UPN 280",
+      "41.8",
+      "280",
+      "95",
+      "10",
+      "15",
+      "15",
+      "7.5"
+    ],
+    [
+      "UPN 300",
+      "46.2",
+      "300",
+      "100",
+      "10",
+      "16",
+      "16",
+      "8"
+    ],
+    [
+      "UPN 320",
+      "59.5",
+      "320",
+      "100",
+      "14",
+      "17.5",
+      "17.5",
+      "8.75"
+    ],
+    [
+      "UPN 350",
+      "60.6",
+      "350",
+      "100",
+      "14",
+      "16",
+      "16",
+      "8"
+    ],
+    [
+      "UPN 380",
+      "63.1",
+      "380",
+      "102",
+      "13.5",
+      "16",
+      "16",
+      "8"
+    ],
+    [
+      "UPN 400",
+      "71.8",
+      "400",
+      "110",
+      "14",
+      "18",
+      "18",
+      "9"
+    ]
+  ],
+  "notes": "Not a wall-thickness matrix: one row per profile, every cell filled. The header strip has two text lines and no table-wide caption: line 1 = \"Žymėjimas\", \"Teorinis metro svoris (kg/m)\" and the group header \"Matmenys\"; line 2 = the sub-labels \"h\", \"b\", \"s\", \"t\", \"r\", \"r₂\", which all belong to the group \"Matmenys\" (no unit is printed for them; mm by context). \"Matmenys\" is put in \"caption\" only because it is the text printed above the labels h/b/s/t/r/r₂ - it is a group header for the dimension columns and does not span the first two columns. The last label is the letter r with a small subscript 2; it is written here with the Unicode subscript character U+2082 (\"r₂\", i.e. r2). Column assignment checked by x-position (header label x / body value x, px): 1/2, 189/190, h 440/440, b 541/541, s 642/642, t 742/743, r 844/844, r2 945/945. Row UPN 380, column s: printed with a comma (\"13,5\") - the only comma in the table - stored as \"13.5\". Dimension values are printed without trailing zeros (5, 7, 10, 8.75), weights with three significant digits (5.59, 10.6, 16.0). Columns t and r carry identical values in every row, exactly as printed. Row UPN 65: the weight is clearly printed 7.04; the commonly published value for UPN 65 is 7.09 kg/m (that figure is from memory, not from the image), so this may be a typo in the source image - transcribed as printed, NOT corrected. Body has no grid lines and no zebra striping; the row background colour is a stock code explained by the legend printed under the table: darker blue = \"Laikoma sandėlyje\" (rows UPN 50 - UPN 300, 14 rows), light grey-blue = \"Tiekiama pagal užsakymą\" (rows UPN 320 - UPN 400, 4 rows). Source is a JPEG, but the bitmap-font digits survive intact: every digit matched its template exactly at five different binarisation thresholds (0 mismatches in 144 cells), and all rows were re-read visually at 2x and 6x."
+}

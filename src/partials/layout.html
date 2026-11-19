@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Demonstracinis maketas: noindex, kad paieškos sistemos neindeksuotų. Į galutinę svetainę neperkelti. -->
+<meta name="robots" content="noindex, nofollow">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="#00305E">
+<link rel="icon" type="image/png" href="assets/img/brand/favicon.png">
+<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/archivo-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+{{head_extra}}
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  /* Judesio režimas nustatomas iš karto, kad nemirgėtų: ?static=1 arba „mažiau judesio“ nustatymas išjungia animacijas */
+  (function(){var s=/[?&]static=1/.test(location.search),r=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;document.documentElement.className+=(s||r)?' no-motion':' js-motion';})();
+</script>
+</head>
+<body class="{{body_class}}">
+{{> icons}}
+{{> profiles}}
+<a class="skip" href="#turinys">Pereiti prie turinio</a>
+{{> header}}
+<main id="turinys">
+{{content}}
+</main>
+{{> footer}}
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/engine.js" defer></script>
+<script src="assets/js/draw.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+{{script_tags}}
+</body>
+</html>

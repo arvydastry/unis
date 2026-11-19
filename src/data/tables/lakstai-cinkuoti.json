@@ -1,0 +1,63 @@
+{
+  "slug": "lakstai-cinkuoti",
+  "top_image": "uploads__images__pages__virsus_cinkuoti_lakstai.jpg",
+  "mid_image": "uploads__images__pages__vidus_cinkuoti_lakstai.jpg",
+  "caption": "Lakšto plotis, ilgis, mm. Teorinis svoris (kg/lakštas).",
+  "columns": [
+    "Storis, mm.",
+    "1000x2000",
+    "1250x2500",
+    "1500x3000"
+  ],
+  "rows": [
+    [
+      "0.5",
+      "8",
+      "12.50",
+      "18"
+    ],
+    [
+      "0.7",
+      "11.20",
+      "17.50",
+      "25.20"
+    ],
+    [
+      "1",
+      "16",
+      "25",
+      "36"
+    ],
+    [
+      "1.2",
+      "19.20",
+      "30",
+      "43.20"
+    ],
+    [
+      "1.5",
+      "24",
+      "37.50",
+      "54"
+    ],
+    [
+      "2",
+      "32",
+      "50",
+      "72"
+    ],
+    [
+      "2.5",
+      "40",
+      "62.50",
+      "90"
+    ],
+    [
+      "3",
+      "48",
+      "75",
+      "108"
+    ]
+  ],
+  "notes": "Units: first column = sheet thickness in mm; the other column labels are sheet formats, width x length in mm; cell values = theoretical mass in kg per sheet. Number formatting is mixed in the source and kept as printed: whole numbers without decimals (8, 16, 25 ...), fractional values with a dot and two decimals (12.50, 11.20, 17.50, 25.20, 19.20, 43.20, 37.50, 62.50). No footnotes, no empty cells. 8 body rows, 3 format columns, 24 filled value cells. Observation for the verification step (no value was changed): every printed weight equals exactly width x length x thickness x 8.0 kg per m2 per mm, i.e. the source uses a rounded density of 8000 kg/m3, about 1.9 % above a 7850 kg/m3 calculation. The header strip image is 1038 px wide and the body image 1040 px; labels and cell borders still line up."
+}

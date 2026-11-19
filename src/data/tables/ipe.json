@@ -1,0 +1,28 @@
+{
+  "slug": "ipe",
+  "top_image": "uploads__images__pages__ipe_virsus.jpg",
+  "mid_image": "uploads__images__pages__ipe_vidus.jpg",
+  "caption": "Matmenys",
+  "columns": ["Žymėjimas", "Metro svoris", "h", "b", "s", "t", "r"],
+  "rows": [
+    ["IPE 80", "6.0", "80", "46", "3.8", "5.2", "5"],
+    ["IPE 100", "8.1", "100", "55", "4.1", "5.7", "7"],
+    ["IPE 120", "10.4", "120", "64", "4.4", "6.3", "7"],
+    ["IPE 140", "12.9", "140", "73", "4.7", "6.9", "7"],
+    ["IPE 160", "15.8", "160", "82", "5.0", "7.4", "9"],
+    ["IPE 180", "18.8", "180", "91", "5.3", "8.0", "9"],
+    ["IPE 200", "22.4", "200", "100", "5.6", "8.5", "12"],
+    ["IPE 220", "26.2", "220", "110", "5.9", "9.2", "12"],
+    ["IPE 240", "30.7", "240", "120", "6.2", "9.8", "15"],
+    ["IPE 270", "36.1", "270", "135", "6.6", "10.2", "15"],
+    ["IPE 300", "42.2", "300", "150", "7.1", "10.7", "15"],
+    ["IPE 330", "49.1", "330", "160", "7.5", "11.5", "18"],
+    ["IPE 360", "57.1", "360", "170", "8", "12.7", "18"],
+    ["IPE 400", "66.3", "400", "180", "8.6", "13.5", "21"],
+    ["IPE 450", "77.6", "450", "190", "9.4", "14.6", "21"],
+    ["IPE 500", "90.7", "500", "200", "10.2", "16.0", "21"],
+    ["IPE 550", "106.0", "550", "210", "11.1", "17.2", "24"],
+    ["IPE 600", "122.0", "600", "220", "12", "19", "24"]
+  ],
+  "notes": "Header strip has two lines: line 1 = 'Žymėjimas' (col 1), 'Metro svoris' (col 2 - in this table the weight header is printed WITHOUT 'Teorinis' and WITHOUT a unit; the other beam tables say 'Teorinis metro svoris (kg/m)') and 'Matmenys' as a merged group header centred over the five dimension columns; line 2 = the sub-labels h, b, s, t, r (cols 3-7). 'Matmenys' is put in \"caption\" only because it is the text printed above the labels h/b/s/t/r - it does not span cols 1-2. No unit is printed for the dimension columns (no 'mm' in the image). Body: 18 rows, 7 text columns, every cell filled (no empty cells), values left-aligned exactly under the header labels, no grid lines. The image already uses a dot as decimal separator. Number formatting is inconsistent in the source and kept exactly as printed: s is '5.0' for IPE 160 but '8' for IPE 360 and '12' for IPE 600; t is '8.0' / '16.0' but '19' for IPE 600; weights '6.0', '106.0', '122.0'. Row background is NOT alternating - it encodes availability, per the legend printed under the table: darker blue = 'Laikoma sandėlyje' -> rows 1-13 (IPE 80 ... IPE 360); pale blue = 'Tiekiama pagal užsakymą' -> rows 14-18 (IPE 400 ... IPE 600). Read three ways (2x bands, 6x column composites, pixel-exact glyph template decode) with identical results."
+}

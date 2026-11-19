@@ -1,0 +1,199 @@
+<!-- title: Užklausa: UNIS Steel Baltija -->
+<!-- description: Pateikite užklausą įmonei „UNIS Steel Baltija“: surinkite pozicijas iš asortimento, įkelkite sąrašą ar brėžinį arba aprašykite poreikį. Viskas vienoje formoje. -->
+<!-- body_class: inner -->
+<!-- scripts: configurator.js, inquiry.js -->
+
+<section class="page-head">
+  <div class="container">
+    <nav class="crumbs" aria-label="Kelias"><a href="index.html">Pradžia</a><span aria-hidden="true">/</span><span aria-current="page">Užklausa</span></nav>
+    <h1>Užklausa</h1>
+    <p>Parašykite, ko reikia: konkrečių pozicijų, viso projekto sąrašo ar tiesiog patarimo. Užtenka užpildyti bent vieną iš trijų dalių ir palikti kontaktus.</p>
+  </div>
+</section>
+
+<div class="page-body">
+  <div class="container">
+    <form class="rfq" id="rfq" novalidate>
+      <div class="rfq__main">
+        <p class="form-error" data-form-error hidden role="alert" tabindex="-1"></p>
+
+        <nav class="ways" aria-label="Trys būdai pateikti užklausą">
+          <a href="#pozicijos" data-way="pozicijos"><svg class="ico" aria-hidden="true"><use href="#i-list-plus"/></svg><strong>Žinau, ko reikia</strong><span>Surinkite pozicijas iš asortimento</span></a>
+          <a href="#failai"><svg class="ico" aria-hidden="true"><use href="#i-paperclip"/></svg><strong>Turiu sąrašą ar brėžinį</strong><span>Įkelkite failą, pozicijų vesti nereikės</span></a>
+          <a href="#poreikis"><svg class="ico" aria-hidden="true"><use href="#i-chat-circle-text"/></svg><strong>Reikia patarimo</strong><span>Aprašykite poreikį savais žodžiais</span></a>
+        </nav>
+
+        <!-- 1. Pozicijos -->
+        <section class="card" id="pozicijos" aria-labelledby="pos-title">
+          <h2 class="card__title" id="pos-title" tabindex="-1"><svg class="ico" aria-hidden="true"><use href="#i-list-checks"/></svg>Pozicijos</h2>
+          <p class="card__lead">Pasirinkite gaminį, matmenis ir kiekį. Kiekį galite nurodyti vienetais, metrais arba tonomis, svorį apskaičiuosime automatiškai.</p>
+          <div class="card__body">
+            <div class="pos-empty" data-pos-empty>
+              <p>Pozicijų dar nėra. Jei tiksliai žinote, ko reikia, pridėkite pirmąją.</p>
+            </div>
+            <ol class="bom__list" data-pos-list></ol>
+            <p class="bom__sum" data-pos-total hidden style="padding-top:16px">Iš viso: <b data-pos-kg></b></p>
+            <div class="pos-actions">
+              <button type="button" class="btn btn--primary" data-pos-add aria-expanded="false" aria-controls="builder"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg>Pridėti poziciją</button>
+            </div>
+            <div class="builder" id="builder" data-builder hidden>
+              <div class="builder__head">
+                <h3 tabindex="-1">Nauja pozicija</h3>
+                <button type="button" class="btn btn--text" data-builder-close>Baigti</button>
+              </div>
+              <div class="cfg" data-builder-cfg></div>
+            </div>
+            <label class="check" style="margin-top:18px">
+              <input type="checkbox" name="pakaitalai">
+              <span>Jei tikslaus matmens ar markės neturite, siūlykite artimiausią pakaitalą.</span>
+            </label>
+          </div>
+        </section>
+
+        <!-- 2. Failai -->
+        <section class="card" id="failai" aria-labelledby="files-title">
+          <h2 class="card__title" id="files-title"><svg class="ico" aria-hidden="true"><use href="#i-paperclip"/></svg>Sąrašas arba brėžiniai</h2>
+          <p class="card__lead">Turite specifikaciją, žiniaraštį ar brėžinį? Įkelkite, ir pozicijų atskirai vesti nereikės.</p>
+          <div class="card__body">
+            <label class="drop" data-drop>
+              <input class="sr" type="file" multiple accept=".pdf,.xls,.xlsx,.csv,.doc,.docx,.dwg,.dxf,.jpg,.jpeg,.png" data-files-input>
+              <svg class="ico" aria-hidden="true"><use href="#i-upload-simple"/></svg>
+              <strong>Nutempkite failus čia arba pasirinkite iš kompiuterio</strong>
+              <small>PDF, Excel, Word, DWG, DXF arba nuotrauka. Iki 10 MB vienam failui.</small>
+            </label>
+            <ul class="files" data-files></ul>
+            <p class="field__error" data-files-error hidden role="alert"></p>
+            <p class="field__hint" style="margin-top:10px">Sąrašą iš „Excel“ ar el. laiško galite tiesiog įklijuoti į žinutės lauką žemiau.</p>
+          </div>
+        </section>
+
+        <!-- 3. Poreikis -->
+        <section class="card" id="poreikis" aria-labelledby="need-title">
+          <h2 class="card__title" id="need-title" tabindex="-1"><svg class="ico" aria-hidden="true"><use href="#i-chat-circle-text"/></svg>Aprašykite poreikį</h2>
+          <p class="card__lead">Tinka, kai reikia patarimo ar nestandartinio gaminio, taip pat bendroms pastaboms.</p>
+          <div class="card__body">
+            <div class="topics" role="group" aria-label="Kas jums aktualu">
+              <label class="topic"><input type="checkbox" name="tema" value="Kaina ir terminas"><span>Kaina ir terminas</span></label>
+              <label class="topic"><input type="checkbox" name="tema" value="Konsultacija dėl gaminio ar markės" data-topic="konsultacija"><span>Konsultacija dėl gaminio ar markės</span></label>
+              <label class="topic"><input type="checkbox" name="tema" value="Projekto komplektavimas" data-topic="projektas"><span>Projekto komplektavimas</span></label>
+              <label class="topic"><input type="checkbox" name="tema" value="Tiekimas tiesiai iš gamintojo"><span>Tiekimas tiesiai iš gamintojo</span></label>
+              <label class="topic"><input type="checkbox" name="tema" value="Nuolatinis tiekimas"><span>Nuolatinis tiekimas</span></label>
+            </div>
+            <label class="field">
+              <span class="field__label">Jūsų žinutė</span>
+              <textarea class="textarea" name="zinute" rows="5" placeholder="Pvz.: reikia vamzdžių tvoros stulpams, apie 200 m, stovės lauke. Kokį skersmenį, sienelės storį ir dangą patartumėte?" data-message></textarea>
+            </label>
+          </div>
+        </section>
+
+        <!-- Pristatymas -->
+        <section class="card" aria-labelledby="del-title">
+          <h2 class="card__title" id="del-title"><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg>Pristatymas ir terminas</h2>
+          <div class="card__body grid-2">
+            <fieldset class="radios" style="border:0;padding:0;margin:0;min-width:0">
+              <legend class="field__label" style="padding:0;margin-bottom:8px">Pristatymo būdas</legend>
+              <label class="radio"><input type="radio" name="pristatymas" value="Dar nenuspręsta" checked><span class="radio__box"><strong>Dar nenusprendžiau</strong><small>Aptarsime, kai gausite pasiūlymą</small></span></label>
+              <label class="radio"><input type="radio" name="pristatymas" value="Pristatyti adresu"><span class="radio__box"><strong>Pristatyti adresu</strong><small>Daliniai ir pilni kroviniai</small></span></label>
+              <label class="radio"><input type="radio" name="pristatymas" value="Atsiimsiu Šiauliuose"><span class="radio__box"><strong>Atsiimsiu Šiauliuose</strong><small>Sandėlis Televizorių g. 3</small></span></label>
+              <label class="radio"><input type="radio" name="pristatymas" value="Atsiimsiu Vilniuje"><span class="radio__box"><strong>Atsiimsiu Vilniuje</strong><small>Sandėlis Pramonės g. 97</small></span></label>
+            </fieldset>
+            <div style="display:grid;gap:16px;align-content:start">
+              <label class="field" data-address hidden>
+                <span class="field__label">Pristatymo vieta</span>
+                <input class="input" type="text" name="adresas" placeholder="Miestas arba adresas" autocomplete="street-address" required data-req="Įrašykite bent miestą, kad galėtume įskaičiuoti pristatymą.">
+                <span class="field__error" hidden></span>
+              </label>
+              <label class="field">
+                <span class="field__label">Kada reikia prekių</span>
+                <select class="select" name="terminas">
+                  <option value="">Nenurodyta</option>
+                  <option>Kuo greičiau</option>
+                  <option>Per 1–2 savaites</option>
+                  <option>Per mėnesį</option>
+                  <option>Vėliau, kol kas domiuosi kaina</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <!-- Kontaktai -->
+        <section class="card" aria-labelledby="con-title">
+          <h2 class="card__title" id="con-title"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg>Jūsų kontaktai</h2>
+          <div class="card__body grid-2">
+            <label class="field">
+              <span class="field__label">Įmonė</span>
+              <input class="input" type="text" name="imone" autocomplete="organization" required data-req="Įrašykite įmonės pavadinimą.">
+              <span class="field__error" hidden></span>
+            </label>
+            <label class="field">
+              <span class="field__label">Įmonės kodas <em>(nebūtina)</em></span>
+              <input class="input" type="text" name="kodas" inputmode="numeric" autocomplete="off">
+            </label>
+            <label class="field">
+              <span class="field__label">Vardas, pavardė</span>
+              <input class="input" type="text" name="vardas" autocomplete="name" required data-req="Įrašykite vardą ir pavardę.">
+              <span class="field__error" hidden></span>
+            </label>
+            <label class="field">
+              <span class="field__label">Telefonas</span>
+              <input class="input" type="tel" name="telefonas" autocomplete="tel" placeholder="+370" required data-req="Įrašykite telefono numerį." data-type="tel">
+              <span class="field__error" hidden></span>
+            </label>
+            <label class="field span-2">
+              <span class="field__label">El. paštas</span>
+              <input class="input" type="email" name="pastas" autocomplete="email" required data-req="Įrašykite el. pašto adresą." data-type="email">
+              <span class="field__error" hidden></span>
+            </label>
+            <div class="span-2">
+              <label class="check">
+                <input type="checkbox" name="sutikimas" required aria-describedby="err-sutikimas" data-req="Pažymėkite, kad sutinkate su duomenų apsaugos taisyklėmis.">
+                <span>Sutinku, kad mano duomenys būtų naudojami atsakyti į šią užklausą pagal <a href="https://www.unis-steel.lt/duomenu-apsauga/" target="_blank" rel="noopener">duomenų apsaugos taisykles</a>.</span>
+              </label>
+              <span class="field__error" id="err-sutikimas" hidden data-consent-error></span>
+            </div>
+          </div>
+          <div class="submit-row">
+            <button class="btn btn--accent btn--lg" type="submit">Siųsti užklausą<svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></button>
+          </div>
+        </section>
+      </div>
+
+      <aside class="rfq__side" aria-label="Užklausos santrauka">
+        <div class="card summary" aria-live="polite">
+          <h2>Jūsų užklausa</h2>
+          <dl class="summary__list">
+            <div aria-atomic="true"><dt>Pozicijos</dt><dd data-sum-pos>0</dd></div>
+            <div aria-atomic="true"><dt>Bendras svoris</dt><dd data-sum-kg>–</dd></div>
+            <div aria-atomic="true"><dt>Failai</dt><dd data-sum-files>0</dd></div>
+            <div aria-atomic="true"><dt>Žinutė</dt><dd data-sum-msg>nėra</dd></div>
+            <div aria-atomic="true"><dt>Pristatymo būdas</dt><dd data-sum-del>Dar nenuspręsta</dd></div>
+          </dl>
+          <p class="summary__ok"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><span>Užtenka vienos dalies: pozicijų, failo arba žinutės.</span></p>
+        </div>
+        <div class="card help">
+          <h2>Patogiau pasitarti telefonu?</h2>
+          <p>Vienas bendras numeris visiems padaliniams.</p>
+          <a class="help__tel" href="tel:+37070077895">+370 700 77895</a>
+          <a class="help__mail" href="mailto:office@unis-steel.lt">office@unis-steel.lt</a>
+        </div>
+      </aside>
+    </form>
+
+    <!-- Patvirtinimas po išsiuntimo -->
+    <section class="card success" data-success hidden tabindex="-1" aria-labelledby="ok-title">
+      <svg class="ico" aria-hidden="true"><use href="#i-check-circle"/></svg>
+      <h2 id="ok-title">Užklausa priimta</h2>
+      <p class="lead" data-success-lead></p>
+      <h3>Jūsų užklausos kopija</h3>
+      <ol class="bom__list" data-success-pos></ol>
+      <ul class="success__list" data-success-list></ul>
+      <p class="field__hint">Demonstracinė versija: duomenys niekur neišsiųsti. Tokią užklausą el. paštu gautų atsakingas vadybininkas.</p>
+      <div class="pos-actions">
+        <a class="btn btn--primary" href="index.html">Grįžti į pradžią</a>
+        <button type="button" class="btn btn--outline" data-success-print>Spausdinti arba išsaugoti PDF</button>
+        <button type="button" class="btn btn--text" data-success-new>Pateikti dar vieną užklausą</button>
+      </div>
+    </section>
+  </div>
+</div>

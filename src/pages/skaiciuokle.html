@@ -1,0 +1,57 @@
+<!-- title: Metalo svorio skaičiuoklė: UNIS Steel Baltija -->
+<!-- description: Plieno vamzdžių, lakštų, juostų, strypų, sijų, lovių ir kampuočių svorio skaičiuoklė su „UNIS Steel Baltija“ asortimento matmenimis. Apskaičiuotas pozicijas iškart pridėkite į užklausą. -->
+<!-- body_class: inner has-calcbar -->
+<!-- scripts: configurator.js, calc.js -->
+
+<section class="page-head">
+  <div class="container">
+    <nav class="crumbs" aria-label="Kelias"><a href="index.html">Pradžia</a><span aria-hidden="true">/</span><span aria-current="page">Skaičiuoklė</span></nav>
+    <h1>Metalo svorio skaičiuoklė</h1>
+    <p>Pasirinkite profilį ir matmenis iš mūsų asortimento arba įveskite savo. Matysite metro, vieneto ir viso kiekio svorį, o apskaičiuotas pozicijas galėsite iškart pridėti į užklausą.</p>
+  </div>
+</section>
+
+<div class="page-body">
+  <div class="container">
+    <div class="cfg" id="cfg"></div>
+    <noscript><p class="status status--warn">Skaičiuoklei reikalinga „JavaScript“. Įjunkite ją naršyklėje arba paskambinkite +370 700 77895.</p></noscript>
+
+    <section class="bom" id="sarasas" aria-labelledby="bom-title">
+      <header class="bom__head">
+        <h2 id="bom-title">Užklausos sąrašas</h2>
+        <p>Čia kaupiasi pridėtos pozicijos. Sąrašas išlieka ir perėjus į užklausos formą.</p>
+      </header>
+      <p class="bom__empty" data-bom-empty>Sąrašas tuščias. Apskaičiuokite gaminio svorį ir spauskite „Pridėti į užklausą“.</p>
+      <ol class="bom__list" data-bom-list></ol>
+      <footer class="bom__foot" data-bom-foot hidden>
+        <p class="bom__sum">Iš viso: <b data-bom-total></b><small data-bom-count></small></p>
+        <button type="button" class="btn btn--text" data-bom-copy>Kopijuoti sąrašą</button>
+        <button type="button" class="btn btn--text" data-bom-print>Spausdinti</button>
+        <button type="button" class="btn btn--text" data-bom-clear>Išvalyti sąrašą</button>
+        <a class="btn btn--accent btn--lg" href="uzklausa.html">Pateikti užklausą<svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </footer>
+    </section>
+
+    <h2 class="sr">Apie skaičiavimą</h2>
+    <div class="notes">
+      <article>
+        <h3>Kaip skaičiuojama</h3>
+        <p>Apvalaus vamzdžio metro svoris: <code>(D − t) × t × 0,02466</code>. Kvadratiniams ir stačiakampiams vamzdžiams įvertinami kampų užapvalinimai pagal EN&nbsp;10219 arba EN&nbsp;10210. Lakštams taikoma 8&nbsp;kg/m² vienam storio milimetrui, cinkuotiems vamzdžiams pridedama cinko danga, kaip mūsų lentelėse.</p>
+      </article>
+      <article>
+        <h3>Asortimento lentelės</h3>
+        <p>Jei matmuo yra mūsų asortimento lentelėje, rodome lentelės teorinį svorį. Kitiems matmenims svoris apskaičiuojamas pagal formulę, o dėl tiekimo galite pasiteirauti užklausoje.</p>
+      </article>
+      <article>
+        <h3>Tikslumas</h3>
+        <p>Svoriai teoriniai. Faktinis svoris gali skirtis dėl standartuose leidžiamų matmenų nuokrypių, todėl tikslų svorį parodo tik svėrimas.</p>
+      </article>
+    </div>
+  </div>
+</div>
+
+<!-- Telefone: lipni juosta su rezultatu -->
+<div class="calcbar" data-calcbar>
+  <div class="calcbar__val"><small data-calcbar-label>Bendras svoris</small><b data-calcbar-val>–</b></div>
+  <button type="button" class="btn btn--accent" data-calcbar-add>Pridėti į užklausą</button>
+</div>

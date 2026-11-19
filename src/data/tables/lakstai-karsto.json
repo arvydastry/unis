@@ -1,0 +1,89 @@
+{
+  "slug": "lakstai-karsto",
+  "top_image": "uploads__images__pages__virsus_karsto_valcavimo_lakstai.jpg",
+  "mid_image": "uploads__images__pages__vidus_karsto_valcavimo_lakstai.jpg",
+  "caption": "Lakšto plotis, ilgis, mm. Teorinis svoris (kg/lakštas).",
+  "columns": [
+    "Storis, mm.",
+    "1000x2000",
+    "1250x2500",
+    "1500x3000",
+    "1500x6000",
+    "2000x6000"
+  ],
+  "rows": [
+    [
+      "1.5",
+      "24",
+      "37.5",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2",
+      "32",
+      "50",
+      "72",
+      "",
+      ""
+    ],
+    [
+      "3",
+      "48",
+      "75",
+      "108",
+      "216",
+      ""
+    ],
+    [
+      "4",
+      "64",
+      "100",
+      "144",
+      "288",
+      ""
+    ],
+    [
+      "5",
+      "80",
+      "125",
+      "180",
+      "360",
+      "480"
+    ],
+    [
+      "6",
+      "96",
+      "150",
+      "216",
+      "432",
+      "576"
+    ],
+    [
+      "8",
+      "128",
+      "200",
+      "288",
+      "576",
+      "768"
+    ],
+    [
+      "10",
+      "160",
+      "250",
+      "360",
+      "720",
+      "960"
+    ],
+    [
+      "12",
+      "192",
+      "300",
+      "432",
+      "864",
+      "1152"
+    ]
+  ],
+  "notes": "Units: first column = sheet thickness in mm; the other column labels are sheet formats, width x length in mm; cell values = theoretical mass in kg per sheet. In the header strip the label \"Storis, mm.\" is printed on the upper line (same line as the caption) and the five format labels on the lower line. Values are printed as whole numbers except \"37.5\" (row 1.5 / 1250x2500), printed with a dot and one decimal, no trailing zero. No footnotes. 9 body rows, 5 format columns, 38 filled value cells; the 7 empty cells (upper right corner of the matrix) are empty in the source image. Observation for the verification step (no value was changed): every printed weight equals exactly width x length x thickness x 8.0 kg per m2 per mm (e.g. 1000x2000 x 1.5 mm = 24), i.e. the source uses a rounded density of 8000 kg/m3, so all values are about 1.9 % above a 7850 kg/m3 calculation. The header strip image is 1037 px wide and the body image 1039 px; labels and cell borders still line up."
+}

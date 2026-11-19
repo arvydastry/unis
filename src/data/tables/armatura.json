@@ -1,0 +1,26 @@
+{
+  "slug": "armatura",
+  "top_image": "uploads__images__pages__virsus_armatura.jpg",
+  "mid_image": "uploads__images__pages__vidus_armatura.jpg",
+  "caption": "",
+  "columns": ["Diametras, mm.", "Teorinis svoris, kg/m."],
+  "rows": [
+    ["4", "0.092"],
+    ["5", "0.144"],
+    ["6", "0.222"],
+    ["8", "0.395"],
+    ["10", "0.617"],
+    ["12", "0.888"],
+    ["14", "1.210"],
+    ["16", "1.580"],
+    ["18", "2.000"],
+    ["20", "2.470"],
+    ["22", "2.980"],
+    ["25", "3.850"],
+    ["28", "4.830"],
+    ["32", "6.310"],
+    ["36", "7.990"],
+    ["40", "9.870"]
+  ],
+  "notes": "Simple 2-column list, no caption line above the column labels (the header strip holds only the two labels). Column 1 = nominal bar diameter in mm, column 2 = theoretical weight in kg/m, printed with 3 decimals and a dot as decimal separator; trailing zeros kept as printed. 16 rows, no empty cells, no footnotes, no merged cells. The steel grade / standard (B500B, EN 10080) is not printed in these two images. Transcribed exactly as printed (not corrected): the first two rows are printed \"0.092\" (diameter 4) and \"0.144\" (diameter 5); both were read pixel-exact, but they differ from the usual nominal masses for these diameters (remark only, not part of the transcription: 0.00617 x d^2 gives about 0.099 and 0.154), so they look like deviations/typos in the source - all other rows look ordinary."
+}

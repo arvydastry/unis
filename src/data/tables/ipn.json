@@ -1,0 +1,30 @@
+{
+  "slug": "ipn",
+  "top_image": "uploads__images__pages__virsus_ipn.png",
+  "mid_image": "uploads__images__pages__vidus_ipn.png",
+  "caption": "Matmenys",
+  "columns": ["Žymėjimas", "Teorinis metro svoris (kg/m)", "h", "b", "s", "t", "r", "r₂"],
+  "rows": [
+    ["IPN 80", "5.94", "80", "42", "3.9", "5.9", "3.9", "2.3"],
+    ["IPN 100", "8.34", "100", "50", "4.5", "6.8", "4.5", "2.7"],
+    ["IPN 120", "11.1", "120", "58", "5.1", "7.7", "5.1", "3.1"],
+    ["IPN 140", "14.3", "140", "66", "5.7", "8.6", "5.7", "3.4"],
+    ["IPN 160", "17.9", "160", "74", "6.3", "9.5", "6.3", "3.8"],
+    ["IPN 180", "21.9", "180", "82", "6.9", "10.4", "6.9", "4.1"],
+    ["IPN 200", "26.2", "200", "90", "7.5", "11.3", "7.5", "4.5"],
+    ["IPN 220", "31.1", "220", "98", "8.1", "12.2", "8.1", "4.9"],
+    ["IPN 240", "36.2", "240", "106", "8.7", "13.1", "8.7", "5.2"],
+    ["IPN 260", "41.9", "260", "113", "9.4", "14.1", "9.4", "5.6"],
+    ["IPN 280", "47.9", "280", "119", "10.1", "15.2", "10.1", "6.1"],
+    ["IPN 300", "54.2", "300", "125", "10.8", "16.2", "10.8", "6.5"],
+    ["IPN 320", "61.0", "320", "131", "11.5", "17.3", "11.5", "6.9"],
+    ["IPN 340", "68.0", "340", "137", "12.2", "18.3", "12.2", "7.3"],
+    ["IPN 360", "76.1", "360", "143", "13", "19.5", "13", "7.8"],
+    ["IPN 380", "84.0", "380", "149", "13.7", "20.5", "13.7", "8.2"],
+    ["IPN 400", "92.4", "400", "155", "14.4", "21.6", "14.4", "8.6"],
+    ["IPN 450", "115.0", "450", "170", "16.2", "24.3", "16.2", "9.7"],
+    ["IPN 500", "141.0", "500", "185", "18", "27", "18", "10.8"],
+    ["IPN 550", "166.0", "550", "200", "19", "30", "19", "11.9"]
+  ],
+  "notes": "Header strip has two lines: line 1 = 'Žymėjimas' (col 1), 'Teorinis metro svoris (kg/m)' (col 2) and 'Matmenys' as a merged group header centred over the six dimension columns; line 2 = the sub-labels h, b, s, t, r, r₂ (cols 3-8). The last label is printed as the letter r with a small subscript 2; it is written here with the Unicode subscript character U+2082 ('r₂', i.e. r2). 'Matmenys' is put in \"caption\" only because it is the text printed above the labels h/b/s/t/r/r₂ - it does not span cols 1-2. No unit is printed for the dimension columns (no 'mm' in the image). Body: 20 rows (IPN 80 ... IPN 550; no IPN 600 row is printed), 8 text columns, every cell filled (no empty cells), values left-aligned exactly under the header labels, no grid lines. As printed, column 'r' repeats the value of column 's' in every row (identical glyphs, checked pixel by pixel). The image already uses a dot as decimal separator. Number formatting is inconsistent in the source and kept exactly as printed: weights with two decimals for IPN 80 / IPN 100 (5.94, 8.34), one decimal elsewhere (61.0, 115.0 ...); s and r printed as '13', '18', '19' and t as '27', '30' without a decimal. Row background is NOT alternating - it encodes availability, per the legend printed under the table: darker blue = 'Laikoma sandėlyje' -> rows 1-12 (IPN 80 ... IPN 300); pale blue = 'Tiekiama pagal užsakymą' -> rows 13-20 (IPN 320 ... IPN 550). Read three ways (2x bands, 6x column composites, pixel-exact glyph template decode) with identical results."
+}

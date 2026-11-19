@@ -1,0 +1,676 @@
+{
+  "_apie": "Produktų katalogas, surašytas iš unis-steel.lt (2026-11-19). Iš šio failo build.py sugeneruoja meniu, asortimento bloką ir assets/js/data.js. 'lines' = viena matmenų lentelė (src/data/tables/<table>.json).",
+  "categories": [
+    {
+      "id": "vamzdziai",
+      "name": "Vamzdžiai",
+      "icon": "p-chs",
+      "sub": "Vandens dujų, magistraliniai, preciziniai, konstrukciniai",
+      "photo": "unis-vamzdziu-galai.jpg",
+      "photo_alt": "Plieno vamzdžių rietuvė „UNIS Steel Baltija“ sandėlyje",
+      "groups": [
+        {
+          "name": "Vandens dujų ir magistraliniai",
+          "items": [
+            {
+              "name": "Vandens dujų",
+              "lines": [
+                "vandens-duju"
+              ]
+            },
+            {
+              "name": "Vandens dujų, cinkuoti",
+              "lines": [
+                "vamzdziai-cinkuoti"
+              ]
+            },
+            {
+              "name": "Magistraliniai",
+              "lines": [
+                "magistraliniai"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Preciziniai",
+          "items": [
+            {
+              "name": "Preciziniai apvalūs",
+              "lines": [
+                "preciziniai-apvalus"
+              ]
+            },
+            {
+              "name": "Preciziniai kvadratiniai",
+              "lines": [
+                "preciziniai-kvadratiniai"
+              ]
+            },
+            {
+              "name": "Preciziniai stačiakampiai",
+              "lines": [
+                "preciziniai-staciakampiai"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Konstrukciniai",
+          "items": [
+            {
+              "name": "Konstrukciniai apvalūs",
+              "lines": [
+                "konstrukciniai-apvalus"
+              ]
+            },
+            {
+              "name": "Konstrukciniai apvalūs cinkuoti",
+              "lines": [
+                "apvalus-cinkuoti"
+              ]
+            },
+            {
+              "name": "Konstrukciniai kvadratiniai",
+              "lines": [
+                "kvadratiniai-en10219",
+                "kvadratiniai-en10210"
+              ]
+            },
+            {
+              "name": "Konstrukciniai stačiakampiai",
+              "lines": [
+                "staciakampiai-en10219",
+                "staciakampiai-en10210"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lakstai",
+      "name": "Lakštai",
+      "icon": "p-sheet",
+      "sub": "Karšto ir šalto valcavimo, cinkuoti",
+      "photo": "unis-juosta-lakstai.jpg",
+      "photo_alt": "Plieno lakštų rietuvės „UNIS Steel Baltija“ sandėlyje",
+      "groups": [
+        {
+          "name": "Plieno lakštai",
+          "items": [
+            {
+              "name": "Karšto valcavimo",
+              "lines": [
+                "lakstai-karsto"
+              ]
+            },
+            {
+              "name": "Šalto valcavimo",
+              "lines": [
+                "lakstai-salto"
+              ]
+            },
+            {
+              "name": "Cinkuoti",
+              "lines": [
+                "lakstai-cinkuoti"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valcuoti",
+      "name": "Valcuoti produktai",
+      "icon": "p-hbeam",
+      "sub": "Sijos, loviai, kampuočiai",
+      "photo": "unis-sandelis-is-virsaus.jpg",
+      "photo_alt": "„UNIS Steel Baltija“ sandėlis iš viršaus",
+      "groups": [
+        {
+          "name": "Sijos",
+          "items": [
+            {
+              "name": "HEB",
+              "lines": [
+                "heb"
+              ]
+            },
+            {
+              "name": "HEA",
+              "lines": [
+                "hea"
+              ]
+            },
+            {
+              "name": "IPN",
+              "lines": [
+                "ipn"
+              ]
+            },
+            {
+              "name": "IPE",
+              "lines": [
+                "ipe"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Loviai",
+          "items": [
+            {
+              "name": "UPE",
+              "lines": [
+                "upe"
+              ]
+            },
+            {
+              "name": "UPN",
+              "lines": [
+                "upn"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kampuočiai",
+          "items": [
+            {
+              "name": "Nelygiašoniai kampuočiai",
+              "lines": [
+                "kampuociai-nelygiasoniai"
+              ]
+            },
+            {
+              "name": "Lygiašoniai kampuočiai",
+              "lines": [
+                "kampuociai-lygiasoniai"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kiti",
+      "name": "Kiti metalo gaminiai",
+      "icon": "p-round",
+      "sub": "Juostos, strypai, armatūra",
+      "photo": "unis-kvadratiniai-vamzdziai.jpg",
+      "photo_alt": "Plieno profilių rietuvės „UNIS Steel Baltija“ sandėlyje",
+      "groups": [
+        {
+          "name": "Juostos ir strypai",
+          "items": [
+            {
+              "name": "Plieno juostos",
+              "lines": [
+                "juostos"
+              ]
+            },
+            {
+              "name": "Apvalūs strypai, nekalibruoti",
+              "lines": [
+                "strypai-nekalibruoti"
+              ]
+            },
+            {
+              "name": "Apvalūs strypai, kalibruoti",
+              "lines": [
+                "strypai-kalibruoti"
+              ]
+            },
+            {
+              "name": "Kvadratiniai strypai",
+              "lines": [
+                "strypai-kvadratiniai"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Armatūra",
+          "items": [
+            {
+              "name": "Armatūra",
+              "lines": [
+                "armatura"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "vandens-duju": {
+      "name": "Vandens dujų vamzdžiai",
+      "short": "Vandens dujų",
+      "shape": "chs",
+      "icon": "p-chs",
+      "std": "EN 10255",
+      "grades": [
+        "S195T"
+      ],
+      "desc": "Nelegiruotojo plieno vamzdžiai, tinkami suvirinti ir sriegti. Išbandyti 50 bar slėgiu."
+    },
+    "vamzdziai-cinkuoti": {
+      "name": "Cinkuoti vandens dujų vamzdžiai",
+      "short": "Vandens dujų, cinkuoti",
+      "shape": "chs",
+      "icon": "p-chs",
+      "std": "EN 10255, EN 10240",
+      "grades": [
+        "S195T"
+      ],
+      "desc": "Pagaminti pagal EN 10255, nucinkuoti pagal EN 10240. Išbandyti 50 bar slėgiu."
+    },
+    "magistraliniai": {
+      "name": "Magistraliniai vamzdžiai",
+      "short": "Magistraliniai",
+      "shape": "chs",
+      "icon": "p-chs",
+      "std": "EN 10217",
+      "grades": [
+        "P235TR1",
+        "P235TR2",
+        "P265TR1",
+        "P265TR2"
+      ],
+      "desc": "Suvirintiniai plieno vamzdžiai, tinkami naudoti esant slėgiui. Išbandyti 70 bar slėgiu."
+    },
+    "preciziniai-apvalus": {
+      "name": "Preciziniai apvalūs vamzdžiai",
+      "short": "Preciziniai",
+      "shape": "chs",
+      "icon": "p-chs",
+      "std": "EN 10305",
+      "grades": [
+        "E220+CR2",
+        "DC01"
+      ],
+      "desc": "Tikslieji plieno vamzdžiai."
+    },
+    "preciziniai-kvadratiniai": {
+      "name": "Preciziniai kvadratiniai vamzdžiai",
+      "short": "Preciziniai",
+      "shape": "shs",
+      "icon": "p-shs",
+      "std": "EN 10305",
+      "grades": [
+        "E220+CR2",
+        "DC01"
+      ],
+      "desc": "Tikslieji kvadratiniai plieno vamzdžiai.",
+      "model": "prec"
+    },
+    "preciziniai-staciakampiai": {
+      "name": "Preciziniai stačiakampiai vamzdžiai",
+      "short": "Preciziniai",
+      "shape": "rhs",
+      "icon": "p-rhs",
+      "std": "EN 10305",
+      "grades": [
+        "E220+CR2",
+        "DC01"
+      ],
+      "desc": "Tikslieji stačiakampiai plieno vamzdžiai.",
+      "model": "prec"
+    },
+    "konstrukciniai-apvalus": {
+      "name": "Konstrukciniai apvalūs vamzdžiai",
+      "short": "Konstrukciniai",
+      "shape": "chs",
+      "icon": "p-chs",
+      "std": "EN 10219",
+      "grades": [
+        "S235JRH",
+        "S275J0H",
+        "S275J2H",
+        "S355J0H",
+        "S355J2H"
+      ],
+      "desc": "Nelegiruotojo ir smulkiagrūdžio plieno šaltai formuoti virintieji tuščiaviduriai statybiniai profiliai."
+    },
+    "apvalus-cinkuoti": {
+      "name": "Konstrukciniai apvalūs cinkuoti vamzdžiai",
+      "short": "Konstrukciniai, cinkuoti",
+      "shape": "chs",
+      "icon": "p-chs",
+      "std": "EN 10219, EN 10240",
+      "grades": [
+        "S235JRH",
+        "S275J0H",
+        "S275J2H",
+        "S355J0H",
+        "S355J2H"
+      ],
+      "desc": "Šaltai formuoti virintieji tuščiaviduriai profiliai, nucinkuoti pagal EN 10240."
+    },
+    "kvadratiniai-en10219": {
+      "name": "Konstrukciniai kvadratiniai vamzdžiai, šaltai formuoti",
+      "short": "Konstrukciniai, šaltai formuoti",
+      "shape": "shs",
+      "icon": "p-shs",
+      "std": "EN 10219",
+      "grades": [
+        "S235JRH",
+        "S275J0H",
+        "S275J2H",
+        "S355J0H",
+        "S355J2H"
+      ],
+      "desc": "Nelegiruotojo ir smulkiagrūdžio plieno šaltai formuoti virintieji tuščiaviduriai statybiniai profiliai.",
+      "model": "cold"
+    },
+    "kvadratiniai-en10210": {
+      "name": "Konstrukciniai kvadratiniai vamzdžiai, karštai formuoti",
+      "short": "Konstrukciniai, karštai formuoti",
+      "shape": "shs",
+      "icon": "p-shs",
+      "std": "EN 10210",
+      "grades": [
+        "S235JRH",
+        "S275J0H",
+        "S275J2H",
+        "S355J0H",
+        "S355J2H"
+      ],
+      "desc": "Karštuoju būdu pagaminti nelegiruotųjų ir smulkiagrūdžių konstrukcinių plienų tuščiaviduriai statybiniai profiliai.",
+      "model": "hot"
+    },
+    "staciakampiai-en10219": {
+      "name": "Konstrukciniai stačiakampiai vamzdžiai, šaltai formuoti",
+      "short": "Konstrukciniai, šaltai formuoti",
+      "shape": "rhs",
+      "icon": "p-rhs",
+      "std": "EN 10219",
+      "grades": [
+        "S235JRH",
+        "S275J0H",
+        "S275J2H",
+        "S355J0H",
+        "S355J2H"
+      ],
+      "desc": "Nelegiruotojo ir smulkiagrūdžio plieno šaltai formuoti virintieji tuščiaviduriai statybiniai profiliai.",
+      "model": "cold"
+    },
+    "staciakampiai-en10210": {
+      "name": "Konstrukciniai stačiakampiai vamzdžiai, karštai formuoti",
+      "short": "Konstrukciniai, karštai formuoti",
+      "shape": "rhs",
+      "icon": "p-rhs",
+      "std": "EN 10210",
+      "grades": [
+        "S235JRH",
+        "S275J0H",
+        "S275J2H",
+        "S355J0H",
+        "S355J2H"
+      ],
+      "desc": "Karštuoju būdu pagaminti nelegiruotųjų ir smulkiagrūdžių konstrukcinių plienų tuščiaviduriai statybiniai profiliai.",
+      "model": "hot"
+    },
+    "lakstai-karsto": {
+      "name": "Karšto valcavimo lakštai",
+      "short": "Karšto valcavimo",
+      "shape": "sheet",
+      "icon": "p-sheet",
+      "std": "EN 10025",
+      "grades": [
+        "S235JR",
+        "S355J2",
+        "S355MC",
+        "S355MC (ėsdinti)"
+      ],
+      "desc": "Karšto valcavimo plieno lakštai."
+    },
+    "lakstai-salto": {
+      "name": "Šalto valcavimo lakštai",
+      "short": "Šalto valcavimo",
+      "shape": "sheet",
+      "icon": "p-sheet",
+      "std": "EN 10130",
+      "grades": [
+        "DC01"
+      ],
+      "desc": "Šaltai valcuoti plieno lakštai."
+    },
+    "lakstai-cinkuoti": {
+      "name": "Cinkuoti lakštai",
+      "short": "Cinkuoti",
+      "shape": "sheet",
+      "icon": "p-sheet",
+      "std": "EN 10346",
+      "grades": [
+        "DX51D+Z275"
+      ],
+      "desc": "Cinkuoti plieno lakštai."
+    },
+    "heb": {
+      "name": "HEB sijos",
+      "short": "HEB",
+      "shape": "beam",
+      "icon": "p-hbeam",
+      "std": "EN 10034",
+      "grades": [
+        "S235JR",
+        "S355J2"
+      ],
+      "desc": "Konstrukcinio plieno dvitėjiniai H profiliai."
+    },
+    "hea": {
+      "name": "HEA sijos",
+      "short": "HEA",
+      "shape": "beam",
+      "icon": "p-hbeam",
+      "std": "EN 10034",
+      "grades": [
+        "S235JR",
+        "S355J2"
+      ],
+      "desc": "Konstrukcinio plieno dvitėjiniai H profiliai."
+    },
+    "ipn": {
+      "name": "IPN sijos",
+      "short": "IPN",
+      "shape": "beam",
+      "icon": "p-ibeam",
+      "std": "EN 10024",
+      "grades": [
+        "S235JR",
+        "S355J2"
+      ],
+      "desc": "Karštai valcuoti dvitėjiniai profiliai smailėjančiomis lentynomis."
+    },
+    "ipe": {
+      "name": "IPE sijos",
+      "short": "IPE",
+      "shape": "beam",
+      "icon": "p-ibeam",
+      "std": "EN 10034",
+      "grades": [
+        "S235JR",
+        "S355J2"
+      ],
+      "desc": "Konstrukcinio plieno dvitėjiniai profiliai lygiagrečiomis lentynomis."
+    },
+    "upe": {
+      "name": "UPE loviai",
+      "short": "UPE",
+      "shape": "channel",
+      "icon": "p-channel",
+      "std": "EN 10025",
+      "grades": [
+        "S235JR",
+        "S355J2"
+      ],
+      "desc": "Karštai valcuotas lovinis plieno profilis lygiagrečiomis lentynomis."
+    },
+    "upn": {
+      "name": "UPN loviai",
+      "short": "UPN",
+      "shape": "channel",
+      "icon": "p-channel",
+      "std": "EN 10279",
+      "grades": [
+        "S235JR",
+        "S355J2"
+      ],
+      "desc": "Karštai valcuotas lovinis plieno profilis."
+    },
+    "kampuociai-nelygiasoniai": {
+      "name": "Nelygiašoniai kampuočiai",
+      "short": "Nelygiašoniai",
+      "shape": "angle",
+      "icon": "p-angle-u",
+      "std": "EN 10056",
+      "grades": [
+        "S235JR"
+      ],
+      "desc": "Nelygiašoniai konstrukcinio plieno kampuočiai."
+    },
+    "kampuociai-lygiasoniai": {
+      "name": "Lygiašoniai kampuočiai",
+      "short": "Lygiašoniai",
+      "shape": "angle",
+      "icon": "p-angle",
+      "std": "EN 10056",
+      "grades": [
+        "S235JR"
+      ],
+      "desc": "Lygiašoniai konstrukcinio plieno kampuočiai."
+    },
+    "juostos": {
+      "name": "Plieno juostos",
+      "short": "Plieno juostos",
+      "shape": "flat",
+      "icon": "p-flat",
+      "std": "EN 10058",
+      "grades": [
+        "S235JR",
+        "S355J2"
+      ],
+      "desc": "Karšto valcavimo plieno juostos."
+    },
+    "strypai-nekalibruoti": {
+      "name": "Apvalūs strypai, nekalibruoti",
+      "short": "Nekalibruoti",
+      "shape": "round",
+      "icon": "p-round",
+      "std": "EN 10060",
+      "grades": [
+        "S235JR",
+        "S355J2",
+        "C45"
+      ],
+      "desc": "Karštai valcuoti apvalūs plieno strypai."
+    },
+    "strypai-kalibruoti": {
+      "name": "Apvalūs strypai, kalibruoti",
+      "short": "Kalibruoti",
+      "shape": "round",
+      "icon": "p-round",
+      "std": "EN 10278",
+      "grades": [
+        "S235JR",
+        "S355J2",
+        "C45"
+      ],
+      "desc": "Kalibruoti apvalūs plieno strypai."
+    },
+    "strypai-kvadratiniai": {
+      "name": "Kvadratiniai strypai",
+      "short": "Kvadratiniai strypai",
+      "shape": "square",
+      "icon": "p-square",
+      "std": "EN 10059",
+      "grades": [
+        "S235JR"
+      ],
+      "desc": "Karštai valcuoti kvadratiniai plieno strypai."
+    },
+    "armatura": {
+      "name": "Armatūra",
+      "short": "Armatūra",
+      "shape": "rebar",
+      "icon": "p-rebar",
+      "std": "EN 10080",
+      "grades": [
+        "B500B"
+      ],
+      "desc": "Armatūrinis plienas."
+    }
+  },
+  "shapes": [
+    {
+      "id": "chs",
+      "name": "Apvalus vamzdis",
+      "icon": "p-chs",
+      "group": "Vamzdžiai"
+    },
+    {
+      "id": "shs",
+      "name": "Kvadratinis vamzdis",
+      "icon": "p-shs",
+      "group": "Vamzdžiai"
+    },
+    {
+      "id": "rhs",
+      "name": "Stačiakampis vamzdis",
+      "icon": "p-rhs",
+      "group": "Vamzdžiai"
+    },
+    {
+      "id": "sheet",
+      "name": "Lakštas",
+      "icon": "p-sheet",
+      "group": "Lakštai ir juostos"
+    },
+    {
+      "id": "flat",
+      "name": "Juosta",
+      "icon": "p-flat",
+      "group": "Lakštai ir juostos"
+    },
+    {
+      "id": "round",
+      "name": "Apvalus strypas",
+      "icon": "p-round",
+      "group": "Strypai ir armatūra"
+    },
+    {
+      "id": "square",
+      "name": "Kvadratinis strypas",
+      "icon": "p-square",
+      "group": "Strypai ir armatūra"
+    },
+    {
+      "id": "rebar",
+      "name": "Armatūra",
+      "icon": "p-rebar",
+      "group": "Strypai ir armatūra"
+    },
+    {
+      "id": "beam",
+      "name": "Sija",
+      "icon": "p-hbeam",
+      "group": "Sijos, loviai, kampuočiai"
+    },
+    {
+      "id": "channel",
+      "name": "Lovis",
+      "icon": "p-channel",
+      "group": "Sijos, loviai, kampuočiai"
+    },
+    {
+      "id": "angle",
+      "name": "Kampuotis",
+      "icon": "p-angle",
+      "group": "Sijos, loviai, kampuočiai"
+    }
+  ]
+}
