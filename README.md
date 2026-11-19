@@ -4,7 +4,9 @@ Naujos **unis-steel.lt** svetainės demonstracinis maketas klientui parodyti pri
 
 ## Peržiūra
 
-- `python3 serve.py` ir atverti <http://localhost:8163/> (`.claude/launch.json` konfigūracija „unis“).
+- **Gyva versija:** <https://arvydastry.github.io/unis/> („GitHub Pages“ iš saugyklos <https://github.com/arvydastry/unis> `main` šakos šaknies; failas `.nojekyll` išjungia „Jekyll“). Tiesioginės nuorodos: [skaičiuoklė](https://arvydastry.github.io/unis/skaiciuokle.html), [užklausos forma](https://arvydastry.github.io/unis/uzklausa.html).
+- Atnaujinimas: `python3 build.py`, tada `git add -A`, `git commit` ir `git push`. „Pages“ persigeneruoja maždaug per minutę.
+- Vietoje: `python3 serve.py` ir atverti <http://localhost:8163/> (`.claude/launch.json` konfigūracija „unis“).
 - Puslapiai: `index.html` (pradžia), `skaiciuokle.html` (skaičiuoklė), `uzklausa.html` (užklausa).
 - `?static=1` prie adreso išjungia judesį (patogu ekrano nuotraukoms).
 - Puslapiai turi `noindex, nofollow`. Užklausos forma demonstracinė: tikrina laukus ir parodo patvirtinimą, bet duomenų niekur nesiunčia.
